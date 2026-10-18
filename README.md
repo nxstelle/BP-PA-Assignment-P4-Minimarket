@@ -42,8 +42,6 @@ if (m != NULL && m->points >= 1000) {
 }
 ```
 
-Example: Citra (1200 points) buys 1 Milk (Rp25,000) -> Rp2,500 discount, pays Rp22,500, her points go 1200 -> 200 -> 300 (+100 earned).
-
 ![Screenshot 3 - Discount](discount.png)
 
 ### Bonus: Interactive Menu
