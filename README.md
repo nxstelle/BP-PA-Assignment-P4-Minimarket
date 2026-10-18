@@ -65,9 +65,3 @@ Input is validated (non-numeric input, out-of-range product/member numbers, and 
 | Buy 10 Shampoo (stock is 5) | `[FAILED]` stock message, nothing changes |
 | Non-member buys 3 Bread | Sale succeeds, no points awarded |
 | Enter `99` or `abc` at the menu | Error message, menu shown again |
-
-insert screenshot
-
-## Notes
-
-- A third member, **Citra** (1200 points), was added to the starting data so the point-redemption discount can be demonstrated immediately. The tutorial's original members start below 1000 points.
