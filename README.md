@@ -11,13 +11,6 @@ A command-line minimarket simulation written in C for the **Struct & Pointer** p
 
 Base rules from the tutorial: buying reduces stock, and a purchase total of **Rp20,000 or more** earns a member **+100 points**. A non-member can buy by passing `NULL` as the member pointer.
 
-## How to Run
-
-```bash
-gcc -Wall -Wextra -o minimarket minimarket.c
-./minimarket
-```
-
 ## Solution
 
 ### Mandatory Task 1: Update Product Price
