@@ -24,12 +24,12 @@ void updatePrice(Product *p, int newPrice) {
 }
 ```
 
-insert screenshot
+![Screenshot 1 - Update Price](updateprice.png)
 
 ### Mandatory Task 2: Update Product Name
 `void updateName(Product *p, char newName[])` uses `strncpy` (a bounded variant of `strcpy`) because a `char` array cannot be assigned with `=`. The string is always null-terminated to avoid overflow. Available as **[6] Admin: Update Name**.
 
-insert screenshot
+![Screenshot 2 - Update Product Name](updatename.png)
 
 ### Mandatory Task 3: Redeem Points for Discount
 Inside `buyProduct`, after the stock check, if the member pointer is not `NULL` and `m->points >= 1000`, the total gets a 10% discount and `m->points -= 1000`. Points are earned (+100) on the **final amount paid**, after any discount. Stock is checked first, so a failed purchase never costs the member any points.
@@ -44,7 +44,7 @@ if (m != NULL && m->points >= 1000) {
 
 Example: Citra (1200 points) buys 1 Milk (Rp25,000) -> Rp2,500 discount, pays Rp22,500, her points go 1200 -> 200 -> 300 (+100 earned).
 
-insert screenshot
+![Screenshot 3 - Discount](discount.png)
 
 ### Bonus: Interactive Menu
 The static simulation became a continuous `while(1)` loop with a `switch-case` menu that only ends when the user picks **[4] Exit**:
