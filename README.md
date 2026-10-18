@@ -56,7 +56,7 @@ The static simulation became a continuous `while(1)` loop with a `switch-case` m
 
 Input is validated (non-numeric input, out-of-range product/member numbers, and invalid quantities show an error instead of crashing). Entering `0` as the member number buys as a non-member.
 
-insert screenshot
+![Screenshot 4 - Interactive Menu](interactivemenu.png)
 
 ## Other Test Cases
 
